@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/get"
+        android:icon="@drawable/ic_baseline_contact_page_24"
+        android:title="@string/get" />
+
+    <item
+        android:id="@+id/post"
+        android:icon="@drawable/ic_baseline_upload_file_24"
+        android:title="@string/post" />
+
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RIO</string>
+    <string name="get">GET</string>
+    <string name="post">POST</string>
+    <string name="placeholder">placeholder</string>
+    <string name="pj_class">Class</string>
+    <string name="spec">Spec</string>
+    <string name="role">Role</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">register</string>
+</resources>
