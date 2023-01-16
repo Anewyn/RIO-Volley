@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#e3e1e1"
     tools:context=".view.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="405dp">
+        android:layout_height="390dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -69,6 +70,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/activity_main_class_field"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/pj_class"
@@ -96,12 +98,20 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/activity_main_spec_field"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/Sage_Green"
                         android:text="@string/spec"
                         android:textSize="22sp"
                         android:textStyle="bold" />
+
+                    <ProgressBar
+                        android:id="@+id/main_activity_progress_bar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone" />
 
                     <TextView
                         android:id="@+id/activity_main_character_spec"
@@ -122,6 +132,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/activity_main_role_field"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/role"
@@ -157,6 +168,7 @@
             android:paddingLeft="20dp">
 
             <ImageView
+                android:id="@+id/activity_main_character_achievement_points_icon"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:src="@drawable/achievement_shield"
@@ -181,6 +193,7 @@
             android:paddingLeft="20dp">
 
             <ImageView
+                android:id="@+id/activity_main_honorable_kills_icon"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:src="@drawable/honorable_kills"
@@ -204,6 +217,7 @@
             android:paddingLeft="20dp">
 
             <ImageView
+                android:id="@+id/activity_main_character_guild_icon"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:src="@drawable/wow_icon"
@@ -227,6 +241,7 @@
             android:paddingLeft="20dp">
 
             <ImageView
+                android:id="@+id/activity_main_character_race_icon"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:src="@drawable/hourglass"

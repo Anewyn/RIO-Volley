@@ -7,12 +7,24 @@
     android:orientation="vertical"
     tools:context=".view.PostActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="45dp"
+
+
+        android:src="@drawable/login" />
+
     <EditText
         android:id="@+id/post_activity_content1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_marginTop="40dp"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
         android:hint="@string/username"
         android:minHeight="48dp" />
 
